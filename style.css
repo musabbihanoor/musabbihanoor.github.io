@@ -336,7 +336,7 @@ footer.sticky ul li {
 }
 
 .resume .content h5 {
-  font-size: 17px;
+  font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 4px;
   font-weight: 300;
@@ -345,14 +345,14 @@ footer.sticky ul li {
 }
 
 .resume .content h6 {
-  font-size: 14px;
+  font-size: 0.8rem;
   font-weight: 200;
   font-style: italic;
   margin-top: 20px;
 }
 
 .resume .content p {
-  font-size: 13px;
+  font-size: 0.8rem;
   margin: 20px 0;
 }
 
