@@ -11,10 +11,6 @@ body {
   scroll-behavior: smooth;
 }
 
-section {
-  position: absolute;
-}
-
 header {
   font-family: "Poppins", sans-serif;
   position: fixed;
@@ -133,12 +129,9 @@ footer.sticky ul li {
 /* HOME */
 
 #home {
-  /* position: absolute;
-  z-index: 2; */
   height: 100vh;
   width: 100%;
   background-color: #181818;
-  z-index: -1;
 }
 
 #home .home {
@@ -223,7 +216,6 @@ footer.sticky ul li {
 /* SPECIALIZATION */
 
 #specialization {
-  z-index: -2;
   top: 0;
   left: 0;
   width: 100%;
@@ -301,10 +293,6 @@ footer.sticky ul li {
 /* RESUME */
 
 #resume {
-  z-index: -3;
-}
-
-#resume {
   height: 100vh;
   background-color: #74777a;
 }
@@ -371,7 +359,6 @@ footer.sticky ul li {
 /* SKILLS */
 
 #skills {
-  z-index: -4;
   width: 100%;
   height: 100vh;
   background-color: #181818;
@@ -442,7 +429,6 @@ footer.sticky ul li {
 /* CONTACT */
 
 #contact {
-  z-index: -5;
   padding: 120px;
   padding-left: 0;
   background-color: #74777a;
@@ -538,10 +524,6 @@ footer.sticky ul li {
 }
 
 @media screen and (max-width: 900px) {
-  section {
-    position: relative;
-  }
-
   #home ul {
     display: none;
   }
